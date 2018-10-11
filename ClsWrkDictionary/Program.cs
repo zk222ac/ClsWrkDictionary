@@ -16,12 +16,14 @@ namespace ClsWrkDictionary
 
             //// Dictionary
 
-            Dictionary<string, string> objDictionary1 = new Dictionary<string, string>();
+            Dictionary<string, string> objDictionary1 = new Dictionary<string, string>
+            {
+                {"1111", "Red"},
+                { "2222", "Green"},
+                { "3333", "Black"},
+                { "4444", "Yellow"}
+            };
 
-            objDictionary1.Add("1111", "Red");
-            objDictionary1.Add("2222", "Green");
-            objDictionary1.Add("3333", "Black");
-            objDictionary1.Add("4444", "Yellow");
 
             foreach (var dic in objDictionary1)
             {
